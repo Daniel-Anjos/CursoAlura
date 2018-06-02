@@ -26,12 +26,3 @@ public class CriaConta {
 }
 
 
-
-/*
-
-Conta = new Conta(200,123,987654, "Daniel dos Anjos");
-saca()
-deposita()
-transfere()
-
-*/
