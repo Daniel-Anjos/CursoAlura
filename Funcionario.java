@@ -6,7 +6,8 @@ public abstract class Funcionario {
 	protected double salario;
 	
 	
-	//Método abstrato obriga as classes filhas a implementarem o método
+	//Método abstrato obriga as classes filhas a implementarem este método.
+	//Ele define apenas a assinatura (visibilidade, retorno, nome do método e parâmetros).
 	public abstract double getBonificacao();
 	
 	public String getNome() {
