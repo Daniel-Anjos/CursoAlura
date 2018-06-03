@@ -6,9 +6,8 @@ public abstract class Funcionario {
 	protected double salario;
 	
 	
-	public double getBonificacao() {
-		return this.salario * 0.1;
-	}
+	//Método abstrato obriga as classes filhas a implementarem o método
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
