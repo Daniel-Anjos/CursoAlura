@@ -1,0 +1,14 @@
+public class SistemaInterno {
+
+		private int senha = 301296;
+		//Este método utiliza a interface como argumento
+		public void autentica (Autenticavel fa) {
+			boolean autenticou = fa.autentica(this.senha);
+			if (autenticou) {
+				System.out.println("Acesso concedido");
+			}else {
+				System.out.println("Acesso negado");
+			}
+		}
+}
+ 
